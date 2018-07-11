@@ -5,10 +5,11 @@ import myprojects.automation.assignment5.utils.Properties;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
+//TODO Automation selenium
+@Test(enabled = false)
 public class PlaceOrderTest extends BaseTest {
 
-
-    @Test(enabled = true, priority = 1)
+    @Test(enabled = false, priority = 1)
     public void checkSignature_01() throws InterruptedException {
         driver.get(Properties.getBaseUrl());
         actions.getCarList();
