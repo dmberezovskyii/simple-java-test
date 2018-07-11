@@ -1,24 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 6, Failures: 5, Errors: 0, Skipped: 0, Time elapsed: 107.502 s <<< FAILURE! - in TestSuite
-checkSignature(myprojects.automation.assignment5.tests.PlaceOrderTest)  Time elapsed: 52.635 s  <<< FAILURE!
-java.lang.AssertionError: expected [82.35] but found [82.36]
-	at myprojects.automation.assignment5.tests.PlaceOrderTest.checkSignature(PlaceOrderTest.java:45)
-
-checkLeasePMTOnSelectDeliveryPage_icla100(myprojects.automation.assignment5.tests.PlaceOrderTest)  Time elapsed: 0.148 s  <<< FAILURE!
-java.lang.AssertionError: expected [715.85] but found [715.86]
-	at myprojects.automation.assignment5.tests.PlaceOrderTest.checkLeasePMTOnSelectDeliveryPage_icla100(PlaceOrderTest.java:52)
-
-check_icla99(myprojects.automation.assignment5.tests.PlaceOrderTest)  Time elapsed: 0.113 s  <<< FAILURE!
-java.lang.AssertionError: expected [715.86] but found [715.85]
-	at myprojects.automation.assignment5.tests.PlaceOrderTest.check_icla99(PlaceOrderTest.java:58)
-
-checkRecivedPayment_icla101(myprojects.automation.assignment5.tests.PlaceOrderTest)  Time elapsed: 38.628 s  <<< FAILURE!
-java.lang.AssertionError: expected [715.86] but found [740.0]
-	at myprojects.automation.assignment5.tests.PlaceOrderTest.checkRecivedPayment_icla101(PlaceOrderTest.java:103)
-
-checkVehiclePriceAfterReturn_icla102(myprojects.automation.assignment5.tests.PlaceOrderTest)  Time elapsed: 3.45 s  <<< FAILURE!
-java.lang.AssertionError: expected [715.86] but found [740.0]
-	at myprojects.automation.assignment5.tests.PlaceOrderTest.checkVehiclePriceAfterReturn_icla102(PlaceOrderTest.java:113)
-
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 65.136 s - in TestSuite

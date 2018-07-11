@@ -2,14 +2,13 @@ package myprojects.automation.assignment5.tests;
 
 import myprojects.automation.assignment5.BaseTest;
 import myprojects.automation.assignment5.utils.Properties;
-import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 @Test(enabled = false)
 public class PlaceOrderTest extends BaseTest {
 
 
-    @Test(enabled = false, priority = 1)
+    @Test(enabled = true, priority = 1)
     public void checkSignature_01() throws InterruptedException {
         driver.get(Properties.getBaseUrl());
         actions.getCarList();
@@ -47,7 +46,7 @@ public class PlaceOrderTest extends BaseTest {
         }
     }
 
-    @Test(enabled = false, priority = 2)
+    @Test(enabled = true, priority = 2)
 
     public void RecivedPayment_icla101() throws InterruptedException {
         actions.orderSignatureRecivedPayment();
@@ -55,7 +54,7 @@ public class PlaceOrderTest extends BaseTest {
         actions.recivedPayment();
     }
 
-    @Test(enabled = false, priority = 3)
+    @Test(enabled = true, priority = 3)
     public void PriceAfterReturn_icla102() throws InterruptedException {
         actions.returnToHomePage();
         Thread.sleep(1000);
@@ -67,14 +66,14 @@ public class PlaceOrderTest extends BaseTest {
 //        actions.profileDeleting();
     }
 
-    @Test(enabled = false, priority = 4)
+    @Test(enabled = true, priority = 4)
     public void checkLeasePMTOnSelectDeliveryPage_icla100() throws InterruptedException {
         Thread.sleep(500);
         actions.returnToPreviousPage();
         actions.checkLeasePMTOnSelectDeliveryOptions();
     }
 
-    @Test(enabled = false, priority = 5)
+    @Test(enabled = true, priority = 5)
     public void check_icla99() throws InterruptedException {
         Thread.sleep(500);
         actions.returnToPreviousPage();
@@ -85,7 +84,6 @@ public class PlaceOrderTest extends BaseTest {
         Thread.sleep(500);
         actions.profileDeleting();
     }
-
 
 
 }

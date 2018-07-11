@@ -152,13 +152,7 @@ public class fileUploadActions extends BaseTest {
     }
 
     public void clickUsingJs(By element) {
-        try {
-            driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
-            driver.findElement(element);
-            jsExecutor.executeScript("arguments[0].click();", element);
-        } catch (NullPointerException e) {
-            driver.findElement(element).click();
-            CustomReporter.log("Click failed");
-        }
+        driver.findElement(element);
+        jsExecutor.executeScript("arguments[0].click();", element);
     }
 }
