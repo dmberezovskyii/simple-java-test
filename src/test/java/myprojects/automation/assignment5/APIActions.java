@@ -22,20 +22,40 @@ public class APIActions extends BaseTest {
     }
 
     public void postSignUP() {
-        try {
-            response = given()
-                    .body("{\"telephoneNumber\": \"+14384484228\"}")
-                    .when()
-                    .contentType(ContentType.JSON)
-                    .post("https://demo.instantcarloanapproval.ca/api/sign-up")
-                    .then().assertThat().statusCode(200).extract().response();
-            CustomReporter.log(response.asString());
-            System.out.println(response.asString());
-        } catch (Exception e) {
-            CustomReporter.log("Failed sign up api");
-        }
+
+
+        response = given()
+                .body("{\"telephoneNumber\": \"+14384484228\"}")
+                .when()
+                .contentType(ContentType.JSON)
+                .post("https://demo.instantcarloanapproval.ca/api/sign-up")
+                .then().assertThat().statusCode(200).extract().response();
+        CustomReporter.log(response.asString());
+        System.out.println(response.asString());
+
+
+        JsonPath jPath = Parser.rawToJSON(response);
+        int code = jPath.get("message.activationCode");
+        //TOdo checkig activation code
+        response = given()
+                .header("token", token)
+                .when()
+                .body("{\n" +
+                        "\"telephoneNumber\": \"+14384484228\",\n" +
+                        "  \"activationCode\": " + code + ",\n" +
+                        "  \"typeOfCar\": \"SUV\",\n" +
+                        "  \"userMonthlyBudget\": \"401-600\",\n" +
+                        "  \"whyUserNeedCar\":[\"to_drive_from_work\"],\n" +
+                        "  \"0\": \"to_drive_from_work\"\n" +
+                        "}")
+                .contentType(ContentType.JSON)
+                .post("https://demo.instantcarloanapproval.ca/api/sign-up-check-activation-code")
+                .then().assertThat().statusCode(200)
+                .extract().response();
+        System.out.println(response.asString());
 
     }
+
 
     public void postUsrName() {
 
@@ -240,7 +260,7 @@ public class APIActions extends BaseTest {
                 .post("https://demo.instantcarloanapproval.ca/api/signature-accept")
                 .then().assertThat().statusCode(200)
                 .extract().response();
-
+        CustomReporter.log("Signature Page -> " + response.asString());
         System.out.println(response.asString());
     }
 
@@ -257,5 +277,25 @@ public class APIActions extends BaseTest {
         System.out.println(response.asString());
     }
 
+    public void postCardPaymentParams() {
+        response = given()
+                .header("token", token)
+                .when()
+                .body("{\n" +
+                        "  \"card\":{\n" +
+                        "        \"brand\": \"k Kobik\",\n" +
+                        "        \"code\": \"123\",\n" +
+                        "        \"number\": \"1111 1111 1111 1111\",\n" +
+                        "        \"valid\": \"01/19\"\n" +
+                        "  },\n" +
+                        "   \"payment_method_nonce\": \"fake-valid-nonce\"\n" +
+                        "}")
+                .contentType(ContentType.JSON)
+                .post("https://demo.instantcarloanapproval.ca/api/get-payment-method-nonce-from-client-side-creating-transaction")
+                .then().assertThat().statusCode(200)
+                .extract().response();
+        CustomReporter.log("Set card values ->" + response.asString());
+        System.out.println(response.asString());
 
+    }
 }

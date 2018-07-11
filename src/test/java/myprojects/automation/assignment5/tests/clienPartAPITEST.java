@@ -1,19 +1,19 @@
 package myprojects.automation.assignment5.tests;
 
-import com.jayway.restassured.response.Response;
 import myprojects.automation.assignment5.BaseTest;
 import org.testng.annotations.Test;
 
 public class clienPartAPITEST extends BaseTest {
 
-    private String carId;
-    private final String token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0ZWxlcGhvbmVOdW1iZXIiOiIrMTQzODQ0ODQyMjgiLCJ1c2VySUQiOiI1YjA2N2Y3NGMwMzIwYzExZmM3M2U1NzAiLCJpYXQiOjE1MzExNDEwMzQsImV4cCI6MTUzMTc0NTgzNH0.5KCCyI8GUu1P2ayLkTCqKLaHHiVILiJZ5mVyZoZEWL8";
-    private Response response;
-
 
     @Test(enabled = true)
     public void checkAPISignUP() {
         api.postSignUP();
+    }
+
+    @Test(enabled = true)
+    public void checkActivationCode() {
+
     }
 
     @Test(enabled = true)
@@ -63,8 +63,13 @@ public class clienPartAPITEST extends BaseTest {
     }
 
     @Test(enabled = true)
-    public void getSignatureAccept(){
+    public void getSignatureAccept() {
         api.postSignatureAccept();
+    }
+
+    @Test(enabled = true)
+    public void setPaymentParams() {
+        api.postCardPaymentParams();
     }
 
     @Test(enabled = true)
