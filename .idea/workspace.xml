@@ -2,46 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9f10bc22-4b4b-48f3-a5c9-efaeeacbed75" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/kotlinc.xml" afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/Assignment 5.iml" afterPath="$PROJECT_DIR$/Assignment 5.iml" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/myprojects/automation/assignment5/GeneralActions.java" afterPath="$PROJECT_DIR$/src/test/java/myprojects/automation/assignment5/GeneralActions.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/myprojects/automation/assignment5/fileUploadActions.java" afterPath="$PROJECT_DIR$/src/test/java/myprojects/automation/assignment5/fileUploadActions.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/myprojects/automation/assignment5/model/Data.java" afterPath="$PROJECT_DIR$/src/test/java/myprojects/automation/assignment5/model/Data.java" />
       <change beforePath="$PROJECT_DIR$/src/test/java/myprojects/automation/assignment5/tests/PlaceOrderTest.java" afterPath="$PROJECT_DIR$/src/test/java/myprojects/automation/assignment5/tests/PlaceOrderTest.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/myprojects/automation/assignment5/tests/clienPartAPITEST.java" afterPath="$PROJECT_DIR$/src/test/java/myprojects/automation/assignment5/tests/clienPartAPITEST.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/myprojects/automation/assignment5/utils/DataConverter.java" afterPath="$PROJECT_DIR$/src/test/java/myprojects/automation/assignment5/utils/DataConverter.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/myprojects/automation/assignment5/utils/DriverFactory.java" afterPath="$PROJECT_DIR$/src/test/java/myprojects/automation/assignment5/utils/DriverFactory.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/myprojects/automation/assignment5/utils/Properties.java" afterPath="$PROJECT_DIR$/src/test/java/myprojects/automation/assignment5/utils/Properties.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/myprojects/automation/assignment5/utils/logging/CustomReporter.java" afterPath="$PROJECT_DIR$/src/test/java/myprojects/automation/assignment5/utils/logging/CustomReporter.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/myprojects/automation/assignment5/utils/logging/EventHandler.java" afterPath="$PROJECT_DIR$/src/test/java/myprojects/automation/assignment5/utils/logging/EventHandler.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/testng.xml" afterPath="$PROJECT_DIR$/src/test/resources/testng.xml" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Products Management/Signature and flow [chrome].html" afterPath="$PROJECT_DIR$/target/surefire-reports/Products Management/Signature and flow [chrome].html" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Products Management/Signature and flow [chrome].xml" afterPath="$PROJECT_DIR$/target/surefire-reports/Products Management/Signature and flow [chrome].xml" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" afterPath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/index.html" afterPath="$PROJECT_DIR$/target/surefire-reports/index.html" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-myprojects.automation.assignment5.tests.PlaceOrderTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-myprojects.automation.assignment5.tests.PlaceOrderTest.xml" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Products Management/Signature and flow [chrome].properties" afterPath="$PROJECT_DIR$/target/surefire-reports/old/Products Management/Signature and flow [chrome].properties" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Products Management/classes.html" afterPath="$PROJECT_DIR$/target/surefire-reports/old/Products Management/classes.html" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Products Management/methods-alphabetical.html" afterPath="$PROJECT_DIR$/target/surefire-reports/old/Products Management/methods-alphabetical.html" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Products Management/methods-not-run.html" afterPath="$PROJECT_DIR$/target/surefire-reports/old/Products Management/methods-not-run.html" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Products Management/methods.html" afterPath="$PROJECT_DIR$/target/surefire-reports/old/Products Management/methods.html" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Products Management/reporter-output.html" afterPath="$PROJECT_DIR$/target/surefire-reports/old/Products Management/reporter-output.html" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Products Management/testng.xml.html" afterPath="$PROJECT_DIR$/target/surefire-reports/old/Products Management/testng.xml.html" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Products Management/toc.html" afterPath="$PROJECT_DIR$/target/surefire-reports/old/Products Management/toc.html" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/index.html" afterPath="$PROJECT_DIR$/target/surefire-reports/old/index.html" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/testng.xml" afterPath="$PROJECT_DIR$/target/test-classes/testng.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -118,8 +79,8 @@
       <file leaf-file-name="PlaceOrderTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/myprojects/automation/assignment5/tests/PlaceOrderTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="6" column="21" lean-forward="false" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+            <state relative-caret-position="311">
+              <caret line="89" column="0" lean-forward="true" selection-start-line="89" selection-start-column="0" selection-end-line="89" selection-end-column="0" />
               <folding>
                 <element signature="method#check_icla99#0;class#PlaceOrderTest#0" expanded="false" />
               </folding>
@@ -412,7 +373,7 @@
       <option name="presentableId" value="Default" />
       <updated>1530787137475</updated>
       <workItem from="1530787139422" duration="899000" />
-      <workItem from="1531303273565" duration="3945000" />
+      <workItem from="1531303273565" duration="4049000" />
     </task>
     <servers />
   </component>
@@ -428,7 +389,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4844000" />
+    <option name="totallyTimeSpent" value="4948000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -542,8 +503,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/myprojects/automation/assignment5/tests/PlaceOrderTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="6" column="21" lean-forward="false" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+        <state relative-caret-position="311">
+          <caret line="89" column="0" lean-forward="true" selection-start-line="89" selection-start-column="0" selection-end-line="89" selection-end-column="0" />
           <folding>
             <element signature="method#check_icla99#0;class#PlaceOrderTest#0" expanded="false" />
           </folding>
