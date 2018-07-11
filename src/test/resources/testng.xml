@@ -15,7 +15,7 @@
     <test name="API testing">
         <parameter name="selenium.browser" value="chrome"/>
         <classes>
-            <class name="myprojects.automation.assignment5.tests.clienPartAPITEST"/>
+            <class name="myprojects.automation.assignment5.tests.ClientPartAPITest"/>
         </classes>
 
     </test>

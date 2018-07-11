@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9f10bc22-4b4b-48f3-a5c9-efaeeacbed75" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/test/java/myprojects/automation/assignment5/APIActions.java" afterPath="$PROJECT_DIR$/src/test/java/myprojects/automation/assignment5/APIActions.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/myprojects/automation/assignment5/tests/clienPartAPITEST.java" afterPath="$PROJECT_DIR$/src/test/java/myprojects/automation/assignment5/tests/clienPartAPITEST.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/myprojects/automation/assignment5/tests/PerformanceTest.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/myprojects/automation/assignment5/tests/clienPartAPITEST.java" afterPath="$PROJECT_DIR$/src/test/java/myprojects/automation/assignment5/tests/ClientPartAPITest.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/testng.xml" afterPath="$PROJECT_DIR$/src/test/resources/testng.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,25 +28,35 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="clienPartAPITEST.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/myprojects/automation/assignment5/tests/clienPartAPITEST.java">
+      <file leaf-file-name="ClientPartAPITest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/myprojects/automation/assignment5/tests/ClientPartAPITest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="121">
               <caret line="10" column="19" lean-forward="false" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
               <folding>
-                <element signature="e#248#249#0" expanded="true" />
-                <element signature="e#280#281#0" expanded="true" />
-                <element signature="method#monthlyIncomeConfirm#0;class#clienPartAPITEST#0" expanded="false" />
-                <element signature="e#1478#1479#0" expanded="true" />
-                <element signature="e#1521#1522#0" expanded="true" />
-                <element signature="e#1579#1580#0" expanded="true" />
-                <element signature="e#1615#1616#0" expanded="true" />
+                <element signature="e#249#250#0" expanded="true" />
+                <element signature="e#281#282#0" expanded="true" />
+                <element signature="method#monthlyIncomeConfirm#0;class#ClientPartAPITest#0" expanded="false" />
+                <element signature="e#1479#1480#0" expanded="true" />
+                <element signature="e#1522#1523#0" expanded="true" />
+                <element signature="e#1580#1581#0" expanded="true" />
+                <element signature="e#1616#1617#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="APIActions.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="testng.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/testng.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="APIActions.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/myprojects/automation/assignment5/APIActions.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="17">
@@ -67,6 +78,16 @@
                 <element signature="method#postUserDelete#0;class#APIActions#0" expanded="false" />
                 <element signature="method#postCardPaymentParams#0;class#APIActions#0" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PerformanceTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/myprojects/automation/assignment5/tests/PerformanceTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="28" lean-forward="false" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -114,6 +135,13 @@
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -273,7 +301,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.clienPartAPITEST.checkAPISignUP">
+  <component name="RunManager" selected="TestNG.ClientPartAPITest.checkAPISignUP">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -320,6 +348,110 @@
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
     </configuration>
+    <configuration name="ClientPartAPITest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Assignment 5" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="myprojects.automation.assignment5.tests" />
+      <option name="MAIN_CLASS_NAME" value="myprojects.automation.assignment5.tests.ClientPartAPITest" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration name="ClientPartAPITest.checkAPISignUP" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Assignment 5" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="myprojects.automation.assignment5.tests" />
+      <option name="MAIN_CLASS_NAME" value="myprojects.automation.assignment5.tests.ClientPartAPITest" />
+      <option name="METHOD_NAME" value="checkAPISignUP" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration name="ClientPartAPITest.setPaymentParams" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Assignment 5" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="myprojects.automation.assignment5.tests" />
+      <option name="MAIN_CLASS_NAME" value="myprojects.automation.assignment5.tests.ClientPartAPITest" />
+      <option name="METHOD_NAME" value="setPaymentParams" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration name="ClientPartAPITest.userDelete" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Assignment 5" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="myprojects.automation.assignment5.tests" />
+      <option name="MAIN_CLASS_NAME" value="myprojects.automation.assignment5.tests.ClientPartAPITest" />
+      <option name="METHOD_NAME" value="userDelete" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -346,110 +478,6 @@
       <properties />
       <listeners />
     </configuration>
-    <configuration name="clienPartAPITEST" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Assignment 5" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="myprojects.automation.assignment5.tests" />
-      <option name="MAIN_CLASS_NAME" value="myprojects.automation.assignment5.tests.clienPartAPITEST" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
-      <properties />
-      <listeners />
-    </configuration>
-    <configuration name="clienPartAPITEST.checkAPISignUP" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Assignment 5" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="myprojects.automation.assignment5.tests" />
-      <option name="MAIN_CLASS_NAME" value="myprojects.automation.assignment5.tests.clienPartAPITEST" />
-      <option name="METHOD_NAME" value="checkAPISignUP" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
-      <properties />
-      <listeners />
-    </configuration>
-    <configuration name="clienPartAPITEST.setPaymentParams" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Assignment 5" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="myprojects.automation.assignment5.tests" />
-      <option name="MAIN_CLASS_NAME" value="myprojects.automation.assignment5.tests.clienPartAPITEST" />
-      <option name="METHOD_NAME" value="setPaymentParams" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
-      <properties />
-      <listeners />
-    </configuration>
-    <configuration name="clienPartAPITEST.userDelete" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Assignment 5" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="myprojects.automation.assignment5.tests" />
-      <option name="MAIN_CLASS_NAME" value="myprojects.automation.assignment5.tests.clienPartAPITEST" />
-      <option name="METHOD_NAME" value="userDelete" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
-      <properties />
-      <listeners />
-    </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
@@ -457,17 +485,17 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list size="4">
-      <item index="0" class="java.lang.String" itemvalue="TestNG.clienPartAPITEST" />
-      <item index="1" class="java.lang.String" itemvalue="TestNG.clienPartAPITEST.setPaymentParams" />
-      <item index="2" class="java.lang.String" itemvalue="TestNG.clienPartAPITEST.userDelete" />
-      <item index="3" class="java.lang.String" itemvalue="TestNG.clienPartAPITEST.checkAPISignUP" />
+      <item index="0" class="java.lang.String" itemvalue="TestNG.ClientPartAPITest" />
+      <item index="1" class="java.lang.String" itemvalue="TestNG.ClientPartAPITest.setPaymentParams" />
+      <item index="2" class="java.lang.String" itemvalue="TestNG.ClientPartAPITest.userDelete" />
+      <item index="3" class="java.lang.String" itemvalue="TestNG.ClientPartAPITest.checkAPISignUP" />
     </list>
     <recent_temporary>
       <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="TestNG.clienPartAPITEST.checkAPISignUP" />
-        <item index="1" class="java.lang.String" itemvalue="TestNG.clienPartAPITEST.userDelete" />
-        <item index="2" class="java.lang.String" itemvalue="TestNG.clienPartAPITEST.setPaymentParams" />
-        <item index="3" class="java.lang.String" itemvalue="TestNG.clienPartAPITEST" />
+        <item index="0" class="java.lang.String" itemvalue="TestNG.ClientPartAPITest.checkAPISignUP" />
+        <item index="1" class="java.lang.String" itemvalue="TestNG.ClientPartAPITest.userDelete" />
+        <item index="2" class="java.lang.String" itemvalue="TestNG.ClientPartAPITest.setPaymentParams" />
+        <item index="3" class="java.lang.String" itemvalue="TestNG.ClientPartAPITest" />
       </list>
     </recent_temporary>
   </component>
@@ -485,7 +513,7 @@
       <option name="presentableId" value="Default" />
       <updated>1530787137475</updated>
       <workItem from="1530787139422" duration="899000" />
-      <workItem from="1531303273565" duration="11371000" />
+      <workItem from="1531303273565" duration="12029000" />
     </task>
     <servers />
   </component>
@@ -522,7 +550,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12270000" />
+    <option name="totallyTimeSpent" value="12928000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -619,14 +647,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/testng.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/myprojects/automation/assignment5/tests/PlaceOrderTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1157">
@@ -653,18 +673,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/myprojects/automation/assignment5/tests/clienPartAPITEST.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/myprojects/automation/assignment5/tests/ClientPartAPITest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="121">
           <caret line="10" column="19" lean-forward="false" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
           <folding>
-            <element signature="e#248#249#0" expanded="true" />
-            <element signature="e#280#281#0" expanded="true" />
-            <element signature="method#monthlyIncomeConfirm#0;class#clienPartAPITEST#0" expanded="false" />
-            <element signature="e#1478#1479#0" expanded="true" />
-            <element signature="e#1521#1522#0" expanded="true" />
-            <element signature="e#1579#1580#0" expanded="true" />
-            <element signature="e#1615#1616#0" expanded="true" />
+            <element signature="e#249#250#0" expanded="true" />
+            <element signature="e#281#282#0" expanded="true" />
+            <element signature="method#monthlyIncomeConfirm#0;class#ClientPartAPITest#0" expanded="false" />
+            <element signature="e#1479#1480#0" expanded="true" />
+            <element signature="e#1522#1523#0" expanded="true" />
+            <element signature="e#1580#1581#0" expanded="true" />
+            <element signature="e#1616#1617#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -690,6 +710,22 @@
             <element signature="method#postUserDelete#0;class#APIActions#0" expanded="false" />
             <element signature="method#postCardPaymentParams#0;class#APIActions#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/myprojects/automation/assignment5/tests/PerformanceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="28" lean-forward="false" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/testng.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

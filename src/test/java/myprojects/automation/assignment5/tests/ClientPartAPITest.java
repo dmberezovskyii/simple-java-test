@@ -3,7 +3,7 @@ package myprojects.automation.assignment5.tests;
 import myprojects.automation.assignment5.BaseTest;
 import org.testng.annotations.Test;
 
-public class clienPartAPITEST extends BaseTest {
+public class ClientPartAPITest extends BaseTest {
 
 
     @Test(enabled = true)
