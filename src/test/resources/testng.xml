@@ -20,6 +20,13 @@
 
     </test>
 
+    <test name="Performance testing">
+        <parameter name="selenium.browser" value="chrome"/>
+        <classes>
+            <class name="myprojects.automation.assignment5.tests.PerformanceTest"/>
+        </classes>
+    </test>
+
     <!--Configure tests for other browser types-->
 </suite>
 

@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9f10bc22-4b4b-48f3-a5c9-efaeeacbed75" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/myprojects/automation/assignment5/tests/PerformanceTest.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/myprojects/automation/assignment5/tests/clienPartAPITEST.java" afterPath="$PROJECT_DIR$/src/test/java/myprojects/automation/assignment5/tests/ClientPartAPITest.java" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/testng.xml" afterPath="$PROJECT_DIR$/src/test/resources/testng.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
@@ -49,8 +47,8 @@
       <file leaf-file-name="testng.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/resources/testng.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+            <state relative-caret-position="260">
+              <caret line="25" column="83" lean-forward="false" selection-start-line="25" selection-start-column="83" selection-end-line="25" selection-end-column="83" />
               <folding />
             </state>
           </provider>
@@ -156,10 +154,10 @@
       <list>
         <option value="$PROJECT_DIR$/src/test/resources/testng.xml" />
         <option value="$PROJECT_DIR$/src/test/java/myprojects/automation/assignment5/BaseTest.java" />
-        <option value="$PROJECT_DIR$/src/test/resources/testng.xml" />
         <option value="$PROJECT_DIR$/src/test/java/myprojects/automation/assignment5/tests/PlaceOrderTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/myprojects/automation/assignment5/tests/clienPartAPITEST.java" />
         <option value="$PROJECT_DIR$/src/test/java/myprojects/automation/assignment5/APIActions.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/testng.xml" />
       </list>
     </option>
   </component>
@@ -513,7 +511,7 @@
       <option name="presentableId" value="Default" />
       <updated>1530787137475</updated>
       <workItem from="1530787139422" duration="899000" />
-      <workItem from="1531303273565" duration="12029000" />
+      <workItem from="1531303273565" duration="12178000" />
     </task>
     <servers />
   </component>
@@ -550,7 +548,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12928000" />
+    <option name="totallyTimeSpent" value="13077000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -723,8 +721,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/resources/testng.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+        <state relative-caret-position="260">
+          <caret line="25" column="83" lean-forward="false" selection-start-line="25" selection-start-column="83" selection-end-line="25" selection-end-column="83" />
           <folding />
         </state>
       </provider>
