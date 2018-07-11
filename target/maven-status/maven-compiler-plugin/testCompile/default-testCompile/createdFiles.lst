@@ -1,0 +1,13 @@
+myprojects\automation\assignment5\GeneralActions.class
+myprojects\automation\assignment5\utils\Properties.class
+myprojects\automation\assignment5\fileUploadActions.class
+myprojects\automation\assignment5\tests\PlaceOrderTest.class
+myprojects\automation\assignment5\model\Data.class
+myprojects\automation\assignment5\tests\ContinueFromLeft.class
+myprojects\automation\assignment5\tests\main.class
+myprojects\automation\assignment5\utils\DriverFactory.class
+myprojects\automation\assignment5\utils\DataConverter.class
+myprojects\automation\assignment5\BaseTest.class
+myprojects\automation\assignment5\utils\logging\CustomReporter.class
+myprojects\automation\assignment5\utils\logging\EventHandler.class
+myprojects\automation\assignment5\utils\EnvironmentVariable.class

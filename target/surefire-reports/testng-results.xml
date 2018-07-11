@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="2" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[[11:54:55.4681972] Main page is passed]]>
+    </line>
+    <line>
+      <![CDATA[[11:54:55.7037631] 
+Passed budget Page]]>
+    </line>
+    <line>
+      <![CDATA[[11:55:03.834203] 
+ Set SMS Page is passed]]>
+    </line>
+    <line>
+      <![CDATA[[11:55:08.4834174] Main page is passed]]>
+    </line>
+    <line>
+      <![CDATA[[11:55:08.8268254] 
+Passed budget Page]]>
+    </line>
+    <line>
+      <![CDATA[[11:55:14.4017372] 
+ Set SMS Page is passed]]>
+    </line>
+    <line>
+      <![CDATA[[11:55:15.4930846] ACTION: 
+ Passed Full Name]]>
+    </line>
+    <line>
+      <![CDATA[[11:55:16.1851409] 
+ Passed Full name page]]>
+    </line>
+    <line>
+      <![CDATA[[11:55:19.2436379] ACTION: Birthday entered]]>
+    </line>
+    <line>
+      <![CDATA[[11:55:20.4181863] step Set Gender is Passed]]>
+    </line>
+    <line>
+      <![CDATA[[11:55:21.0610542] Step Set WorkType is Passed]]>
+    </line>
+    <line>
+      <![CDATA[[11:55:21.1390894] Step Set WorkType is Passed]]>
+    </line>
+    <line>
+      <![CDATA[[11:55:21.8922646] 
+ Passed workExpirience page]]>
+    </line>
+    <line>
+      <![CDATA[[11:55:23.0911813] 
+ Passed monthlyIncome]]>
+    </line>
+    <line>
+      <![CDATA[[11:55:24.1267887] 
+ Monthly income is confirmed]]>
+    </line>
+    <line>
+      <![CDATA[[11:55:24.8325249] 
+ Upload link click Passed]]>
+    </line>
+    <line>
+      <![CDATA[[11:55:27.2623655] ACTION: 
+Set downpayment$1000]]>
+    </line>
+    <line>
+      <![CDATA[[11:55:27.3634209] 
+ Downpament page passed 1000]]>
+    </line>
+    <line>
+      <![CDATA[[11:55:38.6897966] ACTION: Failed Car selection]]>
+    </line>
+    <line>
+      <![CDATA[SelectCar<a href=file:/C:/InstantCaRAutomation/InstantCarAutomation/screenshot/%20SelectCar_.png> click to open screenshot of SelectCar</a><br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[[11:55:42.3907436] 
+ Lease rate is passed->654.87:654.87]]>
+    </line>
+    <line>
+      <![CDATA[[11:55:42.5157338] 
+ Taxes is passed ->85.13 : 85.13]]>
+    </line>
+    <line>
+      <![CDATA[[11:55:42.6301848] 
+ Total leasePMT is passed - >740.0 : 740.0]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2018-07-05T08:54:39Z" name="Products Management" finished-at="2018-07-05T08:55:43Z" duration-ms="64160">
+    <groups>
+    </groups>
+    <test started-at="2018-07-05T08:54:39Z" name="Signature and flow [chrome]" finished-at="2018-07-05T08:55:43Z" duration-ms="64160">
+      <class name="myprojects.automation.assignment5.tests.PlaceOrderTest">
+        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String)[pri:0, instance:myprojects.automation.assignment5.tests.PlaceOrderTest@15de0b3c]" started-at="2018-07-05T08:54:39Z" name="setUp" finished-at="2018-07-05T08:54:43Z" duration-ms="4112" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://localhost:4444/wd/hub]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="checkSignature(java.lang.String)[pri:0, instance:myprojects.automation.assignment5.tests.PlaceOrderTest@15de0b3c]" started-at="2018-07-05T08:54:43Z" name="checkSignature" data-provider="testParams" finished-at="2018-07-05T08:55:42Z" duration-ms="59263" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[D Koperfild]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[[11:54:55.4681972] Main page is passed]]>
+            </line>
+            <line>
+              <![CDATA[[11:54:55.7037631] 
+Passed budget Page]]>
+            </line>
+            <line>
+              <![CDATA[[11:55:03.834203] 
+ Set SMS Page is passed]]>
+            </line>
+            <line>
+              <![CDATA[[11:55:08.4834174] Main page is passed]]>
+            </line>
+            <line>
+              <![CDATA[[11:55:08.8268254] 
+Passed budget Page]]>
+            </line>
+            <line>
+              <![CDATA[[11:55:14.4017372] 
+ Set SMS Page is passed]]>
+            </line>
+            <line>
+              <![CDATA[[11:55:15.4930846] ACTION: 
+ Passed Full Name]]>
+            </line>
+            <line>
+              <![CDATA[[11:55:16.1851409] 
+ Passed Full name page]]>
+            </line>
+            <line>
+              <![CDATA[[11:55:19.2436379] ACTION: Birthday entered]]>
+            </line>
+            <line>
+              <![CDATA[[11:55:20.4181863] step Set Gender is Passed]]>
+            </line>
+            <line>
+              <![CDATA[[11:55:21.0610542] Step Set WorkType is Passed]]>
+            </line>
+            <line>
+              <![CDATA[[11:55:21.1390894] Step Set WorkType is Passed]]>
+            </line>
+            <line>
+              <![CDATA[[11:55:21.8922646] 
+ Passed workExpirience page]]>
+            </line>
+            <line>
+              <![CDATA[[11:55:23.0911813] 
+ Passed monthlyIncome]]>
+            </line>
+            <line>
+              <![CDATA[[11:55:24.1267887] 
+ Monthly income is confirmed]]>
+            </line>
+            <line>
+              <![CDATA[[11:55:24.8325249] 
+ Upload link click Passed]]>
+            </line>
+            <line>
+              <![CDATA[[11:55:27.2623655] ACTION: 
+Set downpayment$1000]]>
+            </line>
+            <line>
+              <![CDATA[[11:55:27.3634209] 
+ Downpament page passed 1000]]>
+            </line>
+            <line>
+              <![CDATA[[11:55:38.6897966] ACTION: Failed Car selection]]>
+            </line>
+            <line>
+              <![CDATA[SelectCar<a href=file:/C:/InstantCaRAutomation/InstantCarAutomation/screenshot/%20SelectCar_.png> click to open screenshot of SelectCar</a><br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+            <line>
+              <![CDATA[[11:55:42.3907436] 
+ Lease rate is passed->654.87:654.87]]>
+            </line>
+            <line>
+              <![CDATA[[11:55:42.5157338] 
+ Taxes is passed ->85.13 : 85.13]]>
+            </line>
+            <line>
+              <![CDATA[[11:55:42.6301848] 
+ Total leasePMT is passed - >740.0 : 740.0]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- checkSignature -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:myprojects.automation.assignment5.tests.PlaceOrderTest@15de0b3c]" started-at="2018-07-05T08:55:42Z" name="tearDown" finished-at="2018-07-05T08:55:43Z" duration-ms="751" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- myprojects.automation.assignment5.tests.PlaceOrderTest -->
+    </test> <!-- Signature and flow [chrome] -->
+  </suite> <!-- Products Management -->
+</testng-results>
