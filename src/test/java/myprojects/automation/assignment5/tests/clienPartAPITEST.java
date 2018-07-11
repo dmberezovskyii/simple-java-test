@@ -7,6 +7,7 @@ import org.testng.annotations.Test;
 public class clienPartAPITEST extends BaseTest {
 
 
+
     @Test(enabled = true)
     public void checkAPISignUP() {
         api.postSignUP();

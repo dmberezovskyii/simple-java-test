@@ -4,6 +4,14 @@
     <!--verbose="1" Для отладки-->
 
 
+    <test name="Signature and flow [chrome]">
+        <parameter name="selenium.browser" value="chrome"/>
+        <classes>
+            <class name="myprojects.automation.assignment5.tests.PlaceOrderTest"/>
+        </classes>
+
+    </test>
+
     <test name="API testing">
         <parameter name="selenium.browser" value="chrome"/>
         <classes>

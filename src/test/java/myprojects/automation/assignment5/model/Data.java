@@ -11,10 +11,10 @@ import java.util.Random;
  */
 public class Data {
     WebDriver driver;
-    public static int downPayment;
-    public static double vehicleCost;
-    public static double carCost;
-    public static int leaseTerm;
+    public static int downPayment = 0;
+    public static double vehicleCost = 0;
+    public static double carCost = 0;
+    public static int leaseTerm = 0;
     public static double capCostResidual;
     private static final double warranty = 1500;
     private static final int residual = 1;

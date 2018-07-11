@@ -22,7 +22,7 @@ public class DataConverter {
      */
     public static double parseStringPrice(String label) {
         label = label.startsWith("$") ? label.substring(1) : label;
-        label.replaceAll(",", "");
+//        label.replaceAll(",", "");
         return Double.parseDouble(label);
     }
 
