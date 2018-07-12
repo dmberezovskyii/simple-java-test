@@ -3,10 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="9f10bc22-4b4b-48f3-a5c9-efaeeacbed75" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/src/test/java/myprojects/automation/assignment5/APIActions.java" afterPath="$PROJECT_DIR$/src/test/java/myprojects/automation/assignment5/APIActions.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/myprojects/automation/assignment5/tests/ClientPartAPITest.java" afterPath="$PROJECT_DIR$/src/test/java/myprojects/automation/assignment5/tests/ClientPartAPITest.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/myprojects/automation/assignment5/tests/ContinueFromLeft.java" afterPath="$PROJECT_DIR$/src/test/java/myprojects/automation/assignment5/tests/ContinueFromLeft.java" />
       <change beforePath="$PROJECT_DIR$/src/test/java/myprojects/automation/assignment5/tests/PerformanceTest.java" afterPath="$PROJECT_DIR$/src/test/java/myprojects/automation/assignment5/tests/PerformanceTest.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/myprojects/automation/assignment5/tests/PlaceOrderTest.java" afterPath="$PROJECT_DIR$/src/test/java/myprojects/automation/assignment5/tests/PlaceOrderTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -30,41 +27,22 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ClientPartAPITest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/myprojects/automation/assignment5/tests/ClientPartAPITest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="274">
-              <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-              <folding>
-                <element signature="e#249#250#0" expanded="true" />
-                <element signature="e#281#282#0" expanded="true" />
-                <element signature="method#monthlyIncomeConfirm#0;class#ClientPartAPITest#0" expanded="false" />
-                <element signature="e#1479#1480#0" expanded="true" />
-                <element signature="e#1522#1523#0" expanded="true" />
-                <element signature="e#1580#1581#0" expanded="true" />
-                <element signature="e#1616#1617#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="testng.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/resources/testng.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="25" column="83" lean-forward="false" selection-start-line="25" selection-start-column="83" selection-end-line="25" selection-end-column="83" />
+            <state relative-caret-position="-5">
+              <caret line="6" column="36" lean-forward="false" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="APIActions.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="APIActions.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/myprojects/automation/assignment5/APIActions.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+            <state relative-caret-position="281">
+              <caret line="358" column="0" lean-forward="true" selection-start-line="358" selection-start-column="0" selection-end-line="358" selection-end-column="0" />
               <folding>
-                <element signature="imports" expanded="true" />
                 <element signature="method#postSignUP#0;class#APIActions#0" expanded="false" />
                 <element signature="method#postUsrName#0;class#APIActions#0" expanded="false" />
                 <element signature="method#postUserNameBirthDay#0;class#APIActions#0" expanded="false" />
@@ -75,20 +53,39 @@
                 <element signature="method#postMonthlyIncomeConfirm#0;class#APIActions#0" expanded="false" />
                 <element signature="method#postFileUpload#0;class#APIActions#0" expanded="false" />
                 <element signature="method#getApprovedCarListInfo#0;class#APIActions#0" expanded="false" />
+                <element signature="e#9492#9536#0" expanded="false" />
                 <element signature="method#postAcceptDelivery#0;class#APIActions#0" expanded="false" />
                 <element signature="method#postSignatureAccept#0;class#APIActions#0" expanded="false" />
                 <element signature="method#postUserDelete#0;class#APIActions#0" expanded="false" />
                 <element signature="method#postCardPaymentParams#0;class#APIActions#0" expanded="false" />
+                <element signature="method#performanceSignUp#0;class#APIActions#0" expanded="false" />
+                <element signature="method#performanceApproveCarList#0;class#APIActions#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PerformanceTest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="PerformanceTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/myprojects/automation/assignment5/tests/PerformanceTest.java">
           <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" column="18" lean-forward="false" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#247#248#0" expanded="true" />
+                <element signature="e#286#287#0" expanded="true" />
+                <element signature="e#351#352#0" expanded="true" />
+                <element signature="e#398#399#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CarData.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/myprojects/automation/assignment5/model/CarData.java">
+          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="34">
-              <caret line="2" column="28" lean-forward="false" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
+              <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -97,40 +94,8 @@
       <file leaf-file-name="Parser.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/myprojects/automation/assignment5/parse/Parser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Data.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/myprojects/automation/assignment5/model/Data.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="26" lean-forward="false" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PlaceOrderTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/myprojects/automation/assignment5/tests/PlaceOrderTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1326">
-              <caret line="89" column="0" lean-forward="false" selection-start-line="89" selection-start-column="0" selection-end-line="89" selection-end-column="0" />
-              <folding>
-                <element signature="method#check_icla99#0;class#PlaceOrderTest#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1479">
-              <caret line="87" column="35" lean-forward="false" selection-start-line="87" selection-start-column="35" selection-end-line="87" selection-end-column="35" />
+            <state relative-caret-position="255">
+              <caret line="17" column="13" lean-forward="true" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -162,6 +127,8 @@
         <option value="$PROJECT_DIR$/src/test/java/myprojects/automation/assignment5/tests/clienPartAPITEST.java" />
         <option value="$PROJECT_DIR$/src/test/java/myprojects/automation/assignment5/APIActions.java" />
         <option value="$PROJECT_DIR$/src/test/resources/testng.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/myprojects/automation/assignment5/tests/PerformanceTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/myprojects/automation/assignment5/APIActions.java" />
       </list>
     </option>
   </component>
@@ -199,7 +166,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="126" />
     <option name="y" value="2" />
     <option name="width" value="1245" />
@@ -220,10 +187,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -264,6 +227,15 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="assignment5" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Assignment 5" type="b2602c69:ProjectViewProjectNode" />
+              <item name="InstantAPI" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="assignment5" type="462c0819:PsiDirectoryNode" />
               <item name="parse" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -275,23 +247,19 @@
               <item name="assignment5" type="462c0819:PsiDirectoryNode" />
               <item name="tests" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Assignment 5" type="b2602c69:ProjectViewProjectNode" />
-              <item name="InstantAPI" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="aspect.path.notification.shown" value="true" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/InstantCaRAutomation/InstantAPI/src/test/java/myprojects/automation/assignment5/tests/PerformanceTest.java" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -305,7 +273,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.ClientPartAPITest.checkAPISignUP">
+  <component name="RunManager" selected="TestNG.PerformanceTest.performanceCarList">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -314,7 +282,6 @@
       <module />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
@@ -328,7 +295,6 @@
       <envs />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -354,35 +320,7 @@
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
     </configuration>
-    <configuration name="ClientPartAPITest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="Assignment 5" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="myprojects.automation.assignment5.tests" />
-      <option name="MAIN_CLASS_NAME" value="myprojects.automation.assignment5.tests.ClientPartAPITest" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
-      <properties />
-      <listeners />
-    </configuration>
     <configuration name="ClientPartAPITest.checkAPISignUP" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="Assignment 5" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -409,7 +347,6 @@
       <listeners />
     </configuration>
     <configuration name="ClientPartAPITest.setPaymentParams" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="Assignment 5" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -436,7 +373,6 @@
       <listeners />
     </configuration>
     <configuration name="ClientPartAPITest.userDelete" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="Assignment 5" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -462,8 +398,59 @@
       <properties />
       <listeners />
     </configuration>
+    <configuration name="PerformanceTest.performaceSignUp" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Assignment 5" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="myprojects.automation.assignment5.tests" />
+      <option name="MAIN_CLASS_NAME" value="myprojects.automation.assignment5.tests.PerformanceTest" />
+      <option name="METHOD_NAME" value="performaceSignUp" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration name="PerformanceTest.performanceCarList" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Assignment 5" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="myprojects.automation.assignment5.tests" />
+      <option name="MAIN_CLASS_NAME" value="myprojects.automation.assignment5.tests.PerformanceTest" />
+      <option name="METHOD_NAME" value="performanceCarList" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -495,18 +482,20 @@
       <option name="PROGRAM_PARAMETERS" />
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
-    <list size="4">
-      <item index="0" class="java.lang.String" itemvalue="TestNG.ClientPartAPITest" />
-      <item index="1" class="java.lang.String" itemvalue="TestNG.ClientPartAPITest.setPaymentParams" />
-      <item index="2" class="java.lang.String" itemvalue="TestNG.ClientPartAPITest.userDelete" />
-      <item index="3" class="java.lang.String" itemvalue="TestNG.ClientPartAPITest.checkAPISignUP" />
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="TestNG.ClientPartAPITest.setPaymentParams" />
+      <item index="1" class="java.lang.String" itemvalue="TestNG.ClientPartAPITest.userDelete" />
+      <item index="2" class="java.lang.String" itemvalue="TestNG.ClientPartAPITest.checkAPISignUP" />
+      <item index="3" class="java.lang.String" itemvalue="TestNG.PerformanceTest.performaceSignUp" />
+      <item index="4" class="java.lang.String" itemvalue="TestNG.PerformanceTest.performanceCarList" />
     </list>
     <recent_temporary>
-      <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="TestNG.ClientPartAPITest.checkAPISignUP" />
-        <item index="1" class="java.lang.String" itemvalue="TestNG.ClientPartAPITest.userDelete" />
-        <item index="2" class="java.lang.String" itemvalue="TestNG.ClientPartAPITest.setPaymentParams" />
-        <item index="3" class="java.lang.String" itemvalue="TestNG.ClientPartAPITest" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="TestNG.PerformanceTest.performanceCarList" />
+        <item index="1" class="java.lang.String" itemvalue="TestNG.PerformanceTest.performaceSignUp" />
+        <item index="2" class="java.lang.String" itemvalue="TestNG.ClientPartAPITest.checkAPISignUP" />
+        <item index="3" class="java.lang.String" itemvalue="TestNG.ClientPartAPITest.userDelete" />
+        <item index="4" class="java.lang.String" itemvalue="TestNG.ClientPartAPITest.setPaymentParams" />
       </list>
     </recent_temporary>
   </component>
@@ -525,76 +514,70 @@
       <updated>1530787137475</updated>
       <workItem from="1530787139422" duration="899000" />
       <workItem from="1531303273565" duration="12178000" />
-      <workItem from="1531332109786" duration="13000" />
+      <workItem from="1531373399371" duration="7263000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="clienPartAPITEST_checkAPISignUP - 2018.07.11 at 16h 17m 24s.xml">
-      <configuration name="clienPartAPITEST.checkAPISignUP" configurationId="TestNG" />
+    <history-entry file="PerformanceTest_performanceCarList - 2018.07.12 at 09h 42m 36s.xml">
+      <configuration name="PerformanceTest.performanceCarList" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="clienPartAPITEST_checkAPISignUP - 2018.07.11 at 16h 17m 43s.xml">
-      <configuration name="clienPartAPITEST.checkAPISignUP" configurationId="TestNG" />
+    <history-entry file="PerformanceTest_performanceCarList - 2018.07.12 at 09h 43m 01s.xml">
+      <configuration name="PerformanceTest.performanceCarList" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="clienPartAPITEST_checkAPISignUP - 2018.07.11 at 16h 18m 03s.xml">
-      <configuration name="clienPartAPITEST.checkAPISignUP" configurationId="TestNG" />
+    <history-entry file="PerformanceTest_performanceCarList - 2018.07.12 at 09h 43m 27s.xml">
+      <configuration name="PerformanceTest.performanceCarList" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="clienPartAPITEST_checkAPISignUP - 2018.07.11 at 16h 19m 34s.xml">
-      <configuration name="clienPartAPITEST.checkAPISignUP" configurationId="TestNG" />
+    <history-entry file="PerformanceTest_performanceCarList - 2018.07.12 at 09h 43m 44s.xml">
+      <configuration name="PerformanceTest.performanceCarList" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="clienPartAPITEST_checkAPISignUP - 2018.07.11 at 16h 21m 45s.xml">
-      <configuration name="clienPartAPITEST.checkAPISignUP" configurationId="TestNG" />
+    <history-entry file="PerformanceTest_performanceCarList - 2018.07.12 at 09h 44m 24s.xml">
+      <configuration name="PerformanceTest.performanceCarList" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="clienPartAPITEST_checkAPISignUP - 2018.07.11 at 16h 23m 22s.xml">
-      <configuration name="clienPartAPITEST.checkAPISignUP" configurationId="TestNG" />
+    <history-entry file="PerformanceTest_performanceCarList - 2018.07.12 at 10h 53m 53s.xml">
+      <configuration name="PerformanceTest.performanceCarList" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="clienPartAPITEST_checkAPISignUP - 2018.07.11 at 16h 24m 03s.xml">
-      <configuration name="clienPartAPITEST.checkAPISignUP" configurationId="TestNG" />
+    <history-entry file="PerformanceTest_performanceCarList - 2018.07.12 at 10h 54m 34s.xml">
+      <configuration name="PerformanceTest.performanceCarList" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="clienPartAPITEST_checkAPISignUP - 2018.07.11 at 16h 24m 37s.xml">
-      <configuration name="clienPartAPITEST.checkAPISignUP" configurationId="TestNG" />
+    <history-entry file="PerformanceTest_performanceCarList - 2018.07.12 at 10h 55m 32s.xml">
+      <configuration name="PerformanceTest.performanceCarList" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="clienPartAPITEST_checkAPISignUP - 2018.07.11 at 16h 24m 59s.xml">
-      <configuration name="clienPartAPITEST.checkAPISignUP" configurationId="TestNG" />
+    <history-entry file="PerformanceTest_performanceCarList - 2018.07.12 at 10h 57m 37s.xml">
+      <configuration name="PerformanceTest.performanceCarList" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="clienPartAPITEST_checkAPISignUP - 2018.07.11 at 16h 51m 36s.xml">
-      <configuration name="clienPartAPITEST.checkAPISignUP" configurationId="TestNG" />
+    <history-entry file="PerformanceTest_performanceCarList - 2018.07.12 at 11h 12m 20s.xml">
+      <configuration name="PerformanceTest.performanceCarList" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13090000" />
+    <option name="totallyTimeSpent" value="20340000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293718" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293718" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3293718" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25586355" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25718608" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293718" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -605,13 +588,6 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/myprojects/automation/assignment5/APIActions.java</url>
-          <line>251</line>
-          <properties />
-        </line-breakpoint>
-      </breakpoints>
       <option name="time" value="1" />
     </breakpoint-manager>
     <watches-manager />
@@ -622,13 +598,13 @@
         <state relative-caret-position="136">
           <caret line="10" column="19" lean-forward="false" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
           <folding>
-            <element signature="e#249#250#0" expanded="true" />
-            <element signature="e#281#282#0" expanded="true" />
+            <element signature="e#249#250#0" expanded="false" />
+            <element signature="e#281#282#0" expanded="false" />
             <element signature="method#monthlyIncomeConfirm#0;class#ClientPartAPITest#0" expanded="false" />
-            <element signature="e#1479#1480#0" expanded="true" />
-            <element signature="e#1522#1523#0" expanded="true" />
-            <element signature="e#1580#1581#0" expanded="true" />
-            <element signature="e#1616#1617#0" expanded="true" />
+            <element signature="e#1479#1480#0" expanded="false" />
+            <element signature="e#1522#1523#0" expanded="false" />
+            <element signature="e#1580#1581#0" expanded="false" />
+            <element signature="e#1616#1617#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -638,7 +614,6 @@
         <state relative-caret-position="204">
           <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
             <element signature="method#postSignUP#0;class#APIActions#0" expanded="false" />
             <element signature="method#postUsrName#0;class#APIActions#0" expanded="false" />
             <element signature="method#postUserNameBirthDay#0;class#APIActions#0" expanded="false" />
@@ -649,10 +624,13 @@
             <element signature="method#postMonthlyIncomeConfirm#0;class#APIActions#0" expanded="false" />
             <element signature="method#postFileUpload#0;class#APIActions#0" expanded="false" />
             <element signature="method#getApprovedCarListInfo#0;class#APIActions#0" expanded="false" />
+            <element signature="e#9492#9536#0" expanded="false" />
             <element signature="method#postAcceptDelivery#0;class#APIActions#0" expanded="false" />
             <element signature="method#postSignatureAccept#0;class#APIActions#0" expanded="false" />
             <element signature="method#postUserDelete#0;class#APIActions#0" expanded="false" />
             <element signature="method#postCardPaymentParams#0;class#APIActions#0" expanded="false" />
+            <element signature="method#performanceSignUp#0;class#APIActions#0" expanded="false" />
+            <element signature="method#performanceApproveCarList#0;class#APIActions#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -661,7 +639,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="28" lean-forward="false" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#247#248#0" expanded="true" />
+            <element signature="e#286#287#0" expanded="true" />
+            <element signature="e#351#352#0" expanded="true" />
+            <element signature="e#398#399#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -745,6 +729,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="16" lean-forward="false" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -774,52 +759,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/myprojects/automation/assignment5/parse/Parser.java">
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Temp1_0ed75ff372ca17fc94355e3051f89f5c-5e46bccd87379a9c66a9d02a8d1e8bb07045f72a.zip/0ed75ff372ca17fc94355e3051f89f5c-5e46bccd87379a9c66a9d02a8d1e8bb07045f72a/SeleniumExample.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/myprojects/automation/assignment5/tests/PerformanceTest.java">
+    <entry file="file://$USER_HOME$/Downloads/SeleniumExample.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="28" lean-forward="false" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/testng.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="83" lean-forward="false" selection-start-line="25" selection-start-column="83" selection-end-line="25" selection-end-column="83" />
-          <folding />
+        <state relative-caret-position="17">
+          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/myprojects/automation/assignment5/tests/ClientPartAPITest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+        <state relative-caret-position="85">
+          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
           <folding>
-            <element signature="e#249#250#0" expanded="true" />
-            <element signature="e#281#282#0" expanded="true" />
+            <element signature="e#249#250#0" expanded="false" />
+            <element signature="e#281#282#0" expanded="false" />
             <element signature="method#monthlyIncomeConfirm#0;class#ClientPartAPITest#0" expanded="false" />
-            <element signature="e#1479#1480#0" expanded="true" />
-            <element signature="e#1522#1523#0" expanded="true" />
-            <element signature="e#1580#1581#0" expanded="true" />
-            <element signature="e#1616#1617#0" expanded="true" />
+            <element signature="e#1479#1480#0" expanded="false" />
+            <element signature="e#1522#1523#0" expanded="false" />
+            <element signature="e#1580#1581#0" expanded="false" />
+            <element signature="e#1616#1617#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/myprojects/automation/assignment5/APIActions.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        <state relative-caret-position="281">
+          <caret line="358" column="0" lean-forward="true" selection-start-line="358" selection-start-column="0" selection-end-line="358" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
             <element signature="method#postSignUP#0;class#APIActions#0" expanded="false" />
             <element signature="method#postUsrName#0;class#APIActions#0" expanded="false" />
             <element signature="method#postUserNameBirthDay#0;class#APIActions#0" expanded="false" />
@@ -830,10 +808,51 @@
             <element signature="method#postMonthlyIncomeConfirm#0;class#APIActions#0" expanded="false" />
             <element signature="method#postFileUpload#0;class#APIActions#0" expanded="false" />
             <element signature="method#getApprovedCarListInfo#0;class#APIActions#0" expanded="false" />
+            <element signature="e#9492#9536#0" expanded="false" />
             <element signature="method#postAcceptDelivery#0;class#APIActions#0" expanded="false" />
             <element signature="method#postSignatureAccept#0;class#APIActions#0" expanded="false" />
             <element signature="method#postUserDelete#0;class#APIActions#0" expanded="false" />
             <element signature="method#postCardPaymentParams#0;class#APIActions#0" expanded="false" />
+            <element signature="method#performanceSignUp#0;class#APIActions#0" expanded="false" />
+            <element signature="method#performanceApproveCarList#0;class#APIActions#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/testng.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5">
+          <caret line="6" column="36" lean-forward="false" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/myprojects/automation/assignment5/model/CarData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/myprojects/automation/assignment5/parse/Parser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="13" lean-forward="true" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/myprojects/automation/assignment5/tests/PerformanceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="18" lean-forward="false" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#247#248#0" expanded="true" />
+            <element signature="e#286#287#0" expanded="true" />
+            <element signature="e#351#352#0" expanded="true" />
+            <element signature="e#398#399#0" expanded="true" />
           </folding>
         </state>
       </provider>

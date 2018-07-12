@@ -11,11 +11,14 @@ import java.io.File;
 import java.util.Random;
 
 import static com.jayway.restassured.RestAssured.given;
+import static java.util.concurrent.TimeUnit.SECONDS;
+import static org.hamcrest.Matchers.lessThan;
 
 public class APIActions extends BaseTest {
 
-    private String carId;
+    private final Long responseTime = 4L;
     private final String token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0ZWxlcGhvbmVOdW1iZXIiOiIrMTQzODQ0ODQyMjgiLCJ1c2VySUQiOiI1YjA2N2Y3NGMwMzIwYzExZmM3M2U1NzAiLCJpYXQiOjE1MzExNDEwMzQsImV4cCI6MTUzMTc0NTgzNH0.5KCCyI8GUu1P2ayLkTCqKLaHHiVILiJZ5mVyZoZEWL8";
+    private String carId;
 
 
     public APIActions(Response response) {
@@ -53,7 +56,7 @@ public class APIActions extends BaseTest {
                         "  \"0\": \"to_drive_from_work\"\n" +
                         "}")
                 .contentType(ContentType.JSON)
-                .post("https://demo.instantcarloanapproval.ca/api/sign-up-check-activation-code")
+                .post("/api/sign-up-check-activation-code")
                 .then().assertThat().statusCode(200)
                 .extract().response();
         System.out.println(response.asString());
@@ -209,9 +212,10 @@ public class APIActions extends BaseTest {
         response = given()
                 .header("token", token)
                 .when()
-                .get("https://demo.instantcarloanapproval.ca/api/search-cars/" + carId)
-                .then()
-                .and().contentType(ContentType.JSON)
+                .get("/api/search-cars/" + carId)
+                .then().assertThat().statusCode(200)
+                .and()
+                .contentType(ContentType.JSON)
                 .extract().response();
         System.out.println(response.asString());
         CustomReporter.log(response.asString());
@@ -224,7 +228,7 @@ public class APIActions extends BaseTest {
                         "\t\"carId\": \"" + carId + "\"\n" +
                         "}")
                 .contentType(ContentType.JSON)
-                .post("https://demo.instantcarloanapproval.ca/api/select_car/")
+                .post("/api/select_car/")
                 .then().assertThat().statusCode(200)
                 .and()
                 .extract().response();
@@ -234,7 +238,7 @@ public class APIActions extends BaseTest {
         response = given()
                 .header("token", token)
                 .when()
-                .get("https://demo.instantcarloanapproval.ca/api/select_car/list")
+                .get("/api/select_car/list")
                 .then().assertThat().statusCode(200)
                 .and().contentType(ContentType.JSON)
                 .extract().response();
@@ -313,6 +317,108 @@ public class APIActions extends BaseTest {
                 .extract().response();
         CustomReporter.log("Set card values ->" + response.asString());
         System.out.println(response.asString());
+
+    }
+
+    //TODO performance testing methods
+
+    public void performanceSignUp() {
+        resources();
+        response = given()
+                .header("token", token)
+                .when()
+                .body("{\"telephoneNumber\": \"+14384484228\"}")
+                .contentType(ContentType.JSON)
+                .post("/api/sign-up")
+                .then().assertThat().statusCode(200).and().time(lessThan(responseTime), SECONDS)
+                .extract().response();
+        CustomReporter.log("Sign Up response time: " + response.getTime());
+        System.out.println("Response time - >" + response.getTime());
+
+        JsonPath jPath = Parser.rawToJSON(response);
+        int code = jPath.get("message.activationCode");
+
+        response = given()
+                .header("token", token)
+                .when()
+                .body("{\n" +
+                        "\"telephoneNumber\": \"+14384484228\",\n" +
+                        "  \"activationCode\": " + code + ",\n" +
+                        "  \"typeOfCar\": \"SUV\",\n" +
+                        "  \"userMonthlyBudget\": \"401-600\",\n" +
+                        "  \"whyUserNeedCar\":[\"to_drive_from_work\"],\n" +
+                        "  \"0\": \"to_drive_from_work\"\n" +
+                        "}")
+                .contentType(ContentType.JSON)
+                .post("/api/sign-up-check-activation-code")
+                .then().assertThat().statusCode(200).and().time(lessThan(responseTime), SECONDS)
+                .extract().response();
+        CustomReporter.log(response.getStatusCode() + " | " + "Response time: " + response.getTime());
+        System.out.println(response.getTime());
+    }
+
+    public void performanceApproveCarList() {
+        resources();
+        response = given()
+                .header("token", token)
+                .when()
+                .contentType(ContentType.JSON)
+                .get("/api/approved-cars")
+                .then().assertThat().statusCode(200).and().time(lessThan(responseTime), SECONDS)
+                .extract().response();
+        CustomReporter.log("Approved car list resp time: " + response.getTime());
+        System.out.println("Aproved car list time: " + response.getTime());
+
+        JsonPath jPath = Parser.rawToJSON(response);
+        int length = jPath.get("listOfCars.size()");
+        int carIdNumber = 0 + (int) (Math.random() * length);
+        carId = jPath.get("listOfCars[" + carIdNumber + "].id");
+        CustomReporter.log("Car id is -> " + carId);
+
+
+        response = given()
+                .header("token", token)
+                .when()
+                .get("/api/search-cars/" + carId)
+                .then()
+                .assertThat().statusCode(200)
+                .and()
+                .time(lessThan(responseTime), SECONDS)
+                .contentType(ContentType.JSON)
+                .extract().response();
+
+        System.out.println(carId);
+        CustomReporter.log("Search car time: " + response.getTime());
+        System.out.println("Search car time: " + response.getTime());
+
+        response = given()
+                .header("token", token)
+                .when()
+                .body("{\n" +
+                        "\t\"carId\": \"" + carId + "\"\n" +
+                        "}")
+                .contentType(ContentType.JSON)
+                .post("/api/select_car/")
+                .then().assertThat().statusCode(200)
+                .and()
+                .time(lessThan(responseTime), SECONDS)
+                .extract().response();
+        CustomReporter.log("Select car time: " + response.getTime());
+        System.out.println("Select car time" + response.getTime());
+
+        response = given()
+                .header("token", token)
+                .when()
+                .contentType(ContentType.JSON)
+                .get("/api/select_car/list")
+                .then()
+                .assertThat().statusCode(200)
+                .and()
+                .time(lessThan(responseTime), SECONDS)
+                .extract().response();
+        CustomReporter.log("Select car list time: " + response.getTime());
+        System.out.println("Select car list time: " + response.getTime());
+
 
     }
 }
