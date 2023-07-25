@@ -26,13 +26,13 @@ public class APIActions extends BaseTest {
     }
 
     public void resources() {
-        RestAssured.baseURI = "https://demo.instantcarloanapproval.ca";
+        RestAssured.baseURI = "https://demo.blabla.ca";
     }
 
     public void postSignUP() {
         resources();
         response = given()
-                .body("{\"telephoneNumber\": \"+14384484228\"}")
+                .body("{\"telephoneNumber\": \"+23122312312312412312\"}")
                 .when()
                 .contentType(ContentType.JSON)
                 .post("/api/sign-up")
@@ -48,7 +48,7 @@ public class APIActions extends BaseTest {
                 .header("token", token)
                 .when()
                 .body("{\n" +
-                        "\"telephoneNumber\": \"+14384484228\",\n" +
+                        "\"telephoneNumber\": \"+12312412312\",\n" +
                         "  \"activationCode\": " + code + ",\n" +
                         "  \"typeOfCar\": \"SUV\",\n" +
                         "  \"userMonthlyBudget\": \"401-600\",\n" +
@@ -82,7 +82,7 @@ public class APIActions extends BaseTest {
     public void postUserNameBirthDay() {
         resources();
         response = given()
-                .header("token", "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0ZWxlcGhvbmVOdW1iZXIiOiIrMTQzODQ0ODQyMjgiLCJ1c2VySUQiOiI1YjA2N2Y3NGMwMzIwYzExZmM3M2U1NzAiLCJpYXQiOjE1MzExNDEwMzQsImV4cCI6MTUzMTc0NTgzNH0.5KCCyI8GUu1P2ayLkTCqKLaHHiVILiJZ5mVyZoZEWL8")
+                .header("token", "")
                 .when()
                 .body("{\"birthDay\": \"11111988\"}")
                 .contentType(ContentType.JSON)
@@ -96,7 +96,7 @@ public class APIActions extends BaseTest {
     public void postGenderAPIRes() {
         resources();
         response = given()
-                .header("token", "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0ZWxlcGhvbmVOdW1iZXIiOiIrMTQzODQ0ODQyMjgiLCJ1c2VySUQiOiI1YjA2N2Y3NGMwMzIwYzExZmM3M2U1NzAiLCJpYXQiOjE1MzExNTY4MzIsImV4cCI6MTUzMTc2MTYzMn0.H_pSsnzWAeQWl_ZDgoxiljTVo5VZb-85IU4WRfH1pCk")
+                .header("token", token)
                 .when()
                 .body("{\n" +
                         "\t\"gender\": 1\n" +
@@ -112,7 +112,7 @@ public class APIActions extends BaseTest {
     public void postWorkingStatus() {
         resources();
         response = given()
-                .header("token", "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0ZWxlcGhvbmVOdW1iZXIiOiIrMTQzODQ0ODQyMjgiLCJ1c2VySUQiOiI1YjA2N2Y3NGMwMzIwYzExZmM3M2U1NzAiLCJpYXQiOjE1MzExNTY4MzIsImV4cCI6MTUzMTc2MTYzMn0.H_pSsnzWAeQWl_ZDgoxiljTVo5VZb-85IU4WRfH1pCk")
+                .header("token", token)
                 .when()
                 .body("{\n" +
                         "\t\"workingStatus\": 1\n" +
@@ -342,7 +342,7 @@ public class APIActions extends BaseTest {
                 .header("token", token)
                 .when()
                 .body("{\n" +
-                        "\"telephoneNumber\": \"+14384484228\",\n" +
+                        "\"telephoneNumber\": \"+12312312\",\n" +
                         "  \"activationCode\": " + code + ",\n" +
                         "  \"typeOfCar\": \"SUV\",\n" +
                         "  \"userMonthlyBudget\": \"401-600\",\n" +
